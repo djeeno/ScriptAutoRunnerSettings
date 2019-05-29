@@ -6,7 +6,7 @@ if (location.hostname === 'github.com' || location.hostname === 'gist.github.com
     Array.prototype.forEach.call(document.getElementsByClassName('final-path'), x => x.classList.add('notranslate'))
 }
 
-if (location.hostname === 'blog.discordapp.com') {
+if (location.hostname === 'blog.discordapp.com' || location.hostname === 'medium.com') {
     Array.prototype.forEach.call(document.getElementsByTagName('iframe'), x => x.classList.add('notranslate'))
 }
 
